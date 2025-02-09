@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.prod
+
+# Logs
+*.log
+logs/
+
+# Downloads
+downloads/
+temp/
+
+# Virtual environment
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db

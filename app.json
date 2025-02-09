@@ -1,0 +1,33 @@
+{
+    "name": "SH4D0W Leech Bot",
+    "description": "Advanced Telegram File Leech Bot with Queue System",
+    "repository": "https://github.com/20255-ee-085/SH4D0W-Leech-Bot",
+    "logo": "https://i.imgur.com/ABCD123.jpg",
+    "keywords": ["telegram", "bot", "leech", "download"],
+    "env": {
+      "API_ID": {
+        "description": "Telegram API ID from my.telegram.org",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Telegram API Hash from my.telegram.org",
+        "value": ""
+      },
+      "BOT_TOKEN": {
+        "description": "Telegram Bot Token from @BotFather",
+        "value": ""
+      },
+      "ADMIN_ID": {
+        "description": "Your Telegram User ID",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "heroku-community/apt"
+      }
+    ]
+  }
