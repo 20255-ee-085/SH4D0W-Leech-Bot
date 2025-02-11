@@ -3,3 +3,6 @@ build:
     web: Dockerfile
   config:
     NODE_ENV: production
+buildpacks:
+  - heroku-community/apt
+  - heroku/python
