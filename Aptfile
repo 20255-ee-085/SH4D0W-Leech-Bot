@@ -1,4 +1,5 @@
 # Required system dependencies
+software-properties-common
 sudo add-apt-repository ppa:jonathonf/ffmpeg-4
 sudo apt-get update
 ffmpeg
