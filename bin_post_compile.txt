@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Run the custom script to install dependencies
+bin/install_ffmpeg.sh
