@@ -4,5 +4,5 @@ build:
   config:
     NODE_ENV: production
 buildpacks:
-  - heroku-community/apt
+  - https://github.com/kontentcore/heroku-buildpack-ffmpeg
   - heroku/python
